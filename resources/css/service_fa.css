@@ -1,0 +1,15 @@
+/***** NAVBAR BEGIN *****/
+.nav-item{
+    cursor: pointer;
+}
+/***** NAVBAR END *****/
+
+.logo_img{
+    width: 40%;
+}
+
+
+.hero-header{
+    background: url("/images/header_img.png") ;
+    background-size: cover;
+}

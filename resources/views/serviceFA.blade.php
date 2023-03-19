@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Service pour tous</title>
-</head>
-<body>
-    test file homestead Midouch
-</body>
-</html>
+@extends('service_fa.layouts.html')
+
+@section('content')
+    {{-- TOOLS --}}
+    @include('service_fa.components.header')
+    {{-- NAVBAR --}}
+    @include('service_fa.components.navbar')
+
+    {{-- HOME PAGE --}}
+    @include('service_fa.components.home')
+@endsection
